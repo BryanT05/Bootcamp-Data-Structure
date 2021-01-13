@@ -991,7 +991,6 @@ void printTemplate(){
 }
 
 int main(){
-  printTemplate();
   bool isEnd = false;
   while(!isEnd){
     printTemplate();
@@ -1009,5 +1008,6 @@ int main(){
       printf("Thank you for using Whisk...\n");
       return 0;
     }
+    system("clear");
   }
 }
